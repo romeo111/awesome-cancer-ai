@@ -2,7 +2,7 @@
 
 # Awesome Cancer AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of 170+ open-source AI tools, datasets, and resources for cancer research and patient care.
+A curated list of 250+ open-source AI tools, datasets, and resources for cancer research and patient care.
 
 [中文](README.md) · [Contributing](#contributing)
 
@@ -18,8 +18,11 @@ A curated list of 170+ open-source AI tools, datasets, and resources for cancer 
 - [Neoantigen Prediction & Vaccine Design](#neoantigen-prediction--vaccine-design)
 - [Computational Pathology](#computational-pathology)
 - [Radiology & Medical Imaging](#radiology--medical-imaging)
+- [Radiation Therapy Planning](#radiation-therapy-planning)
 - [Drug Discovery & Repositioning](#drug-discovery--repositioning)
 - [Single-cell & Spatial Omics](#single-cell--spatial-omics)
+- [RNA Regulatory Networks](#rna-regulatory-networks)
+- [Proteomics & Metabolomics](#proteomics--metabolomics)
 - [Mutational Signatures](#mutational-signatures)
 - [Liquid Biopsy & ctDNA](#liquid-biopsy--ctdna)
 - [Survival Prediction & Prognosis](#survival-prediction--prognosis)
@@ -27,6 +30,8 @@ A curated list of 170+ open-source AI tools, datasets, and resources for cancer 
 - [Cancer Data Standards](#cancer-data-standards)
 - [Datasets & Data Portals](#datasets--data-portals)
 - [Knowledge Bases](#knowledge-bases)
+- [Drug Approvals & Target-Drug Lookup](#drug-approvals--target-drug-lookup)
+- [Financial Assistance & Drug Pricing](#financial-assistance--drug-pricing)
 - [Clinical Guidelines](#clinical-guidelines)
 - [Patient Communities](#patient-communities)
 - [Related Awesome Lists](#related-awesome-lists)
@@ -154,6 +159,16 @@ AI for CT, MRI, PET-CT, and other medical imaging modalities.
 | [nyukat/GMIC](https://github.com/nyukat/GMIC) | Globally-aware multiple instance classifier for interpretable mammography | ![Stars](https://img.shields.io/github/stars/nyukat/GMIC) |
 | [raidionics/Raidionics](https://github.com/raidionics/Raidionics) | Pre-operative brain tumor segmentation and standardized reporting | ![Stars](https://img.shields.io/github/stars/raidionics/Raidionics) |
 
+## Radiation Therapy Planning
+
+| Project | Description | Stars |
+|---------|-------------|-------|
+| [e0404/matRad](https://e0404.github.io/matRad/) | Open-source MATLAB treatment planning for photon, proton, and carbon ion therapy | — |
+| [opentps](https://opentps.org/) | Python-based open-source TPS for proton therapy research | — |
+| [SlicerRT](https://slicerrt.github.io/) | Radiation therapy toolkit for 3D Slicer: DICOM-RT, DVH, dose accumulation | — |
+| [dicompyler/dicompyler-core](https://github.com/dicompyler/dicompyler-core) | Python library for DICOM-RT parsing and DVH calculation | ![Stars](https://img.shields.io/github/stars/dicompyler/dicompyler-core) |
+| [didymo/OnkoDICOM](https://github.com/didymo/OnkoDICOM) | Open-source DICOM-RT viewer for radiation oncology | ![Stars](https://img.shields.io/github/stars/didymo/OnkoDICOM) |
+
 ## Drug Discovery & Repositioning
 
 AI for anticancer drug discovery, repositioning, and drug sensitivity prediction.
@@ -188,6 +203,26 @@ Single-cell and spatial transcriptomics analysis for tumor microenvironment char
 | [10xgenomics/cellranger](https://github.com/10xgenomics/cellranger) | 10x Genomics single-cell analysis pipeline | ![Stars](https://img.shields.io/github/stars/10xgenomics/cellranger) |
 | [bowang-lab/scGPT](https://github.com/bowang-lab/scGPT) | Single-cell foundation model built on generative pretraining | ![Stars](https://img.shields.io/github/stars/bowang-lab/scGPT) |
 | [BoevaLab/CancerFoundation](https://github.com/BoevaLab/CancerFoundation) | Foundation model specifically for cancer single-cell biology | ![Stars](https://img.shields.io/github/stars/BoevaLab/CancerFoundation) |
+
+## RNA Regulatory Networks
+
+| Resource | Description |
+|----------|-------------|
+| [miRBase](https://www.mirbase.org/) | Definitive miRNA sequence database |
+| [miRTarBase](https://mirtarbase.cuhk.edu.cn/) | 360,000+ experimentally validated miRNA-target interactions |
+| [ENCORI/starBase](https://rnasysu.com/encori/) | Pan-cancer RNA interaction platform across 32 cancer types |
+| [LNCipedia](https://lncipedia.org/) | Human lncRNA annotations and functional data |
+| [NONCODE](https://www.noncode.org/) | Comprehensive lncRNA database with cancer associations |
+
+## Proteomics & Metabolomics
+
+| Resource | Description |
+|----------|-------------|
+| [MaxQuant](https://maxquant.org/) | Gold-standard quantitative proteomics software |
+| [Perseus](https://maxquant.net/perseus/) | Statistical analysis platform for proteomics |
+| [CPTAC/Proteomic Data Commons](https://proteomic.datacommons.cancer.gov/) | NCI cancer proteomics repository: 1,000+ tumors, 10 cancer types |
+| [HMDB](https://www.hmdb.ca/) | Human Metabolome Database: 220,945 metabolites with disease associations |
+| [MetaboAnalyst](https://www.metaboanalyst.ca/) | Comprehensive metabolomics analysis web platform |
 
 ## Mutational Signatures
 
@@ -284,6 +319,15 @@ Standards and platforms for interoperable cancer data exchange.
 | [SEER](https://seer.cancer.gov/) | NCI Surveillance, Epidemiology, and End Results Program | Epidemiology |
 | [Reactome](https://reactome.org/) | Open-source biological pathway database | Pathways |
 | [osteosarc.com](https://osteosarc.com/) | Sid Sijbrandij's 25 TB osteosarcoma dataset — N=1 data sharing | N=1 |
+| [AACR Project GENIE](https://www.aacr.org/professionals/research/aacr-project-genie/) | 271K samples real-world clinico-genomic data from 20 centers | Clinico-genomic |
+| [GLOBOCAN/GCO](https://gco.iarc.who.int/) | IARC global cancer incidence, mortality, survival for 185 countries | Epidemiology |
+| [CCLE/DepMap](https://depmap.org/portal/) | Cancer Cell Line Encyclopedia + Dependency Map: 1,000+ cell lines | Cell Lines |
+| [PCAWG](https://dcc.icgc.org/pcawg) | 2,658 whole cancer genomes across 38 tumor types | Whole Genome |
+| [CPTAC/PDC](https://proteomic.datacommons.cancer.gov/) | NCI cancer proteomics across 10 cancer types | Proteomics |
+| [TARGET](https://www.cancer.gov/ccg/research/genome-sequencing/target/about) | NCI pediatric cancer genomics program | Pediatric |
+| [UCSC Xena](https://xenabrowser.net/) | Visual browser for 1,500+ cancer datasets across 50 cancer types | Multi-omic |
+| [CellMiner](https://discover.nci.nih.gov/cellminer/) | NCI-60 cell line explorer: genes, miRNAs, compounds | Cell Lines |
+| [METABRIC](https://www.cbioportal.org/study?id=brca_metabric) | 2,000 breast cancer tumors multi-omic dataset | Breast Cancer |
 
 ## Knowledge Bases
 
@@ -298,6 +342,35 @@ Standards and platforms for interoperable cancer data exchange.
 | [FAERS](https://open.fda.gov/data/faers/) | FDA Adverse Event Reporting System | Drug safety |
 | [IEDB](https://www.iedb.org/) | Immune Epitope Database | Immunology |
 
+## Drug Approvals & Target-Drug Lookup
+
+| Resource | Description | Type |
+|----------|-------------|------|
+| [Drugs@FDA](https://www.accessdata.fda.gov/scripts/cder/daf/) | Official FDA drug approval database with labels and reviews | Regulatory |
+| [openFDA](https://open.fda.gov/) | API-accessible FDA data: adverse events, drug labels, recalls | API |
+| [DailyMed](https://dailymed.nlm.nih.gov/) | NLM database of current drug labeling in structured format | Drug Labels |
+| [NCI Drug Dictionary](https://www.cancer.gov/publications/dictionaries/cancer-drug) | Cancer-specific drug encyclopedia with mechanism of action | Cancer Drugs |
+| [My Cancer Genome](https://www.mycancergenome.org/) | Vanderbilt. Maps mutations to approved therapies across 957 cancer types | Precision Medicine |
+| [Cancer Genome Interpreter](https://www.cancergenomeinterpreter.org/) | Upload variants, get automated driver identification and drug matching | Variant-Drug |
+| [Genome Nexus](https://www.genomenexus.org/) | MSK variant annotation API aggregating 12+ sources | Variant Annotation |
+| [Cancer Hotspots](https://www.cancerhotspots.org/) | MSK. Statistically significant recurrent mutations in cancer | Hotspot Mutations |
+| [FDA Companion Diagnostics](https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools) | Biomarker → companion diagnostic → drug mapping | Diagnostics |
+| [Therapeutic Target Database](https://idrblab.org/ttd/) | 3,798 targets × 40,398 drugs with clinical profiles | Target-Drug |
+| [EMA Medicines](https://www.ema.europa.eu/en/medicines) | European drug approvals with full assessment reports | Regulatory |
+| [CPIC Guidelines](https://cpicpgx.org/guidelines/) | Genotype-based dosing guidelines for chemotherapy (e.g., DPYD/fluoropyrimidine) | Pharmacogenomics |
+| [FDALabel](https://www.fda.gov/science-research/bioinformatics-tools/fdalabel-full-text-search-drug-product-labeling) | Full-text search across 150,000+ FDA drug labels | Label Search |
+
+## Financial Assistance & Drug Pricing
+
+| Resource | Description |
+|----------|-------------|
+| [NeedyMeds](https://www.needymeds.org/) | Database of patient assistance programs, copay cards, free clinics |
+| [RxAssist](https://www.rxassist.org/) | Patient assistance program database searchable by drug name |
+| [PAN Foundation](https://www.panfoundation.org/) | Copay assistance for underinsured cancer patients |
+| [CancerCare Financial Assistance](https://www.cancercare.org/copayfoundation) | Copay assistance specifically for cancer treatments |
+| [Cancer Financial Assistance Coalition](https://www.cancerfac.org/) | Searchable database of organizations providing financial help |
+| [GoodRx](https://www.goodrx.com/) | Drug price comparison across 70,000+ US pharmacies |
+
 ## Clinical Guidelines
 
 | Resource | Description | Region |
@@ -305,6 +378,9 @@ Standards and platforms for interoperable cancer data exchange.
 | [NCCN Guidelines](https://www.nccn.org/guidelines/) | National Comprehensive Cancer Network Guidelines | USA |
 | [ESMO Guidelines](https://www.esmo.org/guidelines) | European Society for Medical Oncology Guidelines | Europe |
 | [CSCO Guidelines](https://www.csco.org.cn/) | Chinese Society of Clinical Oncology Guidelines | China |
+| [ASCO Guidelines](https://www.asco.org/guidelines) | American Society of Clinical Oncology evidence-based guidelines | USA |
+| [NICE Cancer Pathways](https://www.nice.org.uk/guidance/conditions-and-diseases/cancer) | UK cancer treatment pathways with cost-effectiveness analysis | UK |
+| [CACA Guidelines](http://www.caca.org.cn/) | Chinese Integrated Cancer Guidelines covering 53 cancer types | China |
 
 ## Patient Communities
 
@@ -312,6 +388,11 @@ Standards and platforms for interoperable cancer data exchange.
 |----------|-------------|
 | [osteosarc.com](https://osteosarc.com/) | Sid Sijbrandij's osteosarcoma open data project — N=1 data sharing exemplar |
 | [Even One Ventures](https://evenone.ventures/) | "Patient First" biotech investment fund founded by Sid Sijbrandij |
+| [Cancer.Net](https://www.cancer.net/) | ASCO patient information: cancer types, treatment, coping guides |
+| [CancerCare](https://www.cancercare.org/) | Free counseling, support groups, financial assistance for cancer patients |
+| [American Cancer Society](https://www.cancer.org/) | 24/7 helpline, lodging, rides to treatment, financial guidance |
+| [Macmillan Cancer Support](https://www.macmillan.org.uk/) | UK's leading cancer charity: nurses, financial help, online community |
+| [NCI-Designated Cancer Centers](https://www.cancer.gov/research/infrastructure/cancer-centers/find) | Directory of 73 top US cancer centers for finding specialists |
 
 ## Related Awesome Lists
 

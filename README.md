@@ -1,8 +1,8 @@
 <div align="center">
 
-# 开源抗癌 AI 资源大全 — 170+ 项目 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 开源抗癌 AI 资源大全 — 250+ 项目 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-精选 170+ 个用于癌症研究和患者关怀的开源 AI 工具、数据集与资源。
+精选 250+ 个用于癌症研究和患者关怀的开源 AI 工具、数据集与资源。
 
 [English](README_EN.md) · [贡献指南](#contributing)
 
@@ -18,8 +18,11 @@
 - [新抗原预测与疫苗设计](#新抗原预测与疫苗设计)
 - [计算病理学](#计算病理学)
 - [放射学与医学影像](#放射学与医学影像)
+- [放射治疗规划](#放射治疗规划)
 - [药物发现与重定位](#药物发现与重定位)
 - [单细胞与空间组学](#单细胞与空间组学)
+- [RNA 调控网络](#rna-调控网络)
+- [蛋白质组与代谢组](#蛋白质组与代谢组)
 - [突变特征](#突变特征)
 - [液体活检与 ctDNA](#液体活检与-ctdna)
 - [生存预测与预后](#生存预测与预后)
@@ -27,8 +30,10 @@
 - [肿瘤数据标准](#肿瘤数据标准)
 - [数据集与数据平台](#数据集与数据平台)
 - [知识库](#知识库)
+- [药物审批与靶点查询](#药物审批与靶点查询)
 - [临床指南](#临床指南)
 - [患者社区](#患者社区)
+- [患者财务援助](#患者财务援助)
 - [中国特色项目](#中国特色项目)
 - [相关 Awesome 列表](#相关-awesome-列表)
 
@@ -155,6 +160,16 @@ AI 分析病理切片（H&E、IHC 等），用于诊断、预后及生物标志�
 | [nyukat/GMIC](https://github.com/nyukat/GMIC) | 可解释乳腺钼靶全局感知多实例分类器 | ![Stars](https://img.shields.io/github/stars/nyukat/GMIC) |
 | [raidionics/Raidionics](https://github.com/raidionics/Raidionics) | 术前脑肿瘤分割与标准化报告 | ![Stars](https://img.shields.io/github/stars/raidionics/Raidionics) |
 
+## 放射治疗规划
+
+| 项目 | 描述 | Stars |
+|------|------|-------|
+| [matRad](https://e0404.github.io/matRad/) | 开源 MATLAB 放射治疗计划（光子/质子/碳离子） | — |
+| [OpenTPS](https://opentps.org/) | Python 质子治疗计划系统 | — |
+| [SlicerRT](https://slicerrt.github.io/) | 3D Slicer 放射治疗工具包 | — |
+| [dicompyler/dicompyler-core](https://github.com/dicompyler/dicompyler-core) | DICOM-RT 解析和 DVH 计算 Python 库 | ![Stars](https://img.shields.io/github/stars/dicompyler/dicompyler-core) |
+| [didymo/OnkoDICOM](https://github.com/didymo/OnkoDICOM) | 开源放射肿瘤学 DICOM-RT 查看器 | ![Stars](https://img.shields.io/github/stars/didymo/OnkoDICOM) |
+
 ## 药物发现与重定位
 
 面向抗癌药物发现、老药新用和药物敏感性预测的 AI 工具。
@@ -189,6 +204,26 @@ AI 分析病理切片（H&E、IHC 等），用于诊断、预后及生物标志�
 | [10xgenomics/cellranger](https://github.com/10xgenomics/cellranger) | 10x Genomics 单细胞分析流水线 | ![Stars](https://img.shields.io/github/stars/10xgenomics/cellranger) |
 | [bowang-lab/scGPT](https://github.com/bowang-lab/scGPT) | 基于生成式预训练的单细胞基础模型 | ![Stars](https://img.shields.io/github/stars/bowang-lab/scGPT) |
 | [BoevaLab/CancerFoundation](https://github.com/BoevaLab/CancerFoundation) | 专为癌症单细胞生物学打造的基础模型 | ![Stars](https://img.shields.io/github/stars/BoevaLab/CancerFoundation) |
+
+## RNA 调控网络
+
+| 资源 | 描述 |
+|------|------|
+| [miRBase](https://www.mirbase.org/) | miRNA 序列权威数据库 |
+| [miRTarBase](https://mirtarbase.cuhk.edu.cn/) | 36 万+ 实验验证的 miRNA-靶基因互作 |
+| [ENCORI/starBase](https://rnasysu.com/encori/) | 泛癌 RNA 互作平台（32 种癌症） |
+| [LNCipedia](https://lncipedia.org/) | 人类 lncRNA 注释与功能数据库 |
+| [NONCODE](https://www.noncode.org/) | 综合 lncRNA 数据库，含癌症关联 |
+
+## 蛋白质组与代谢组
+
+| 资源 | 描述 |
+|------|------|
+| [MaxQuant](https://maxquant.org/) | 定量蛋白质组学金标准软件 |
+| [Perseus](https://maxquant.net/perseus/) | 蛋白质组学统计分析平台 |
+| [CPTAC/蛋白质组数据共享](https://proteomic.datacommons.cancer.gov/) | NCI 癌症蛋白质组：1,000+ 肿瘤，10 种癌症 |
+| [HMDB](https://www.hmdb.ca/) | 人类代谢组数据库：22 万代谢物 |
+| [MetaboAnalyst](https://www.metaboanalyst.ca/) | 综合代谢组学分析网页平台 |
 
 ## 突变特征
 
@@ -285,6 +320,14 @@ AI 分析病理切片（H&E、IHC 等），用于诊断、预后及生物标志�
 | [SEER](https://seer.cancer.gov/) | NCI 监测、流行病学和最终结果项目 | 流行病学 |
 | [Reactome](https://reactome.org/) | 开源生物通路数据库 | 通路 |
 | [osteosarc.com](https://osteosarc.com/) | Sid Sijbrandij 的 25 TB 骨肉瘤数据集 — N=1 数据共享 | N=1 |
+| [AACR Project GENIE](https://www.aacr.org/professionals/research/aacr-project-genie/) | 27 万样本真实世界临床基因组数据 | 临床基因组 |
+| [GLOBOCAN/GCO](https://gco.iarc.who.int/) | IARC 全球癌症发病率/死亡率/生存率（185 国） | 流行病学 |
+| [CCLE/DepMap](https://depmap.org/portal/) | 癌细胞系百科 + 依赖性图谱：1,000+ 细胞系 | 细胞系 |
+| [PCAWG](https://dcc.icgc.org/pcawg) | 2,658 个癌症全基因组（38 种肿瘤） | 全基因组 |
+| [TARGET](https://www.cancer.gov/ccg/research/genome-sequencing/target/about) | NCI 儿童癌症基因组项目 | 儿童肿瘤 |
+| [UCSC Xena](https://xenabrowser.net/) | 1,500+ 癌症数据集可视化浏览器 | 多组学 |
+| [CellMiner](https://discover.nci.nih.gov/cellminer/) | NCI-60 细胞系探索器 | 细胞系 |
+| [METABRIC](https://www.cbioportal.org/study?id=brca_metabric) | 2,000 例乳腺癌多组学数据 | 乳腺癌 |
 
 ## 知识库
 
@@ -299,6 +342,24 @@ AI 分析病理切片（H&E、IHC 等），用于诊断、预后及生物标志�
 | [FAERS](https://open.fda.gov/data/faers/) | FDA 不良事件报告系统 | 药物安全 |
 | [IEDB](https://www.iedb.org/) | 免疫表位数据库 | 免疫学 |
 
+## 药物审批与靶点查询
+
+| 资源 | 描述 | 类型 |
+|------|------|------|
+| [Drugs@FDA](https://www.accessdata.fda.gov/scripts/cder/daf/) | FDA 官方药品审批数据库，含标签和审评报告 | 监管 |
+| [openFDA](https://open.fda.gov/) | FDA 开放 API：不良事件、药品标签、召回 | API |
+| [DailyMed](https://dailymed.nlm.nih.gov/) | NLM 药品标签结构化数据库 | 药品标签 |
+| [NCI 癌症药物词典](https://www.cancer.gov/publications/dictionaries/cancer-drug) | 癌症专用药物百科，含作用机制 | 癌症药物 |
+| [My Cancer Genome](https://www.mycancergenome.org/) | Vanderbilt 出品。突变→已批准疗法映射，覆盖 957 种癌症 | 精准医学 |
+| [Cancer Genome Interpreter](https://www.cancergenomeinterpreter.org/) | 上传变异，自动识别驱动突变并匹配药物 | 变异-药物 |
+| [Genome Nexus](https://www.genomenexus.org/) | MSK 变异注释 API，聚合 12+ 数据源 | 变异注释 |
+| [Cancer Hotspots](https://www.cancerhotspots.org/) | MSK 癌症热点突变数据库 | 热点突变 |
+| [FDA 伴随诊断列表](https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools) | 生物标志物→伴随诊断→对应药物 | 诊断 |
+| [Therapeutic Target Database](https://idrblab.org/ttd/) | 3,798 靶点 × 40,398 药物 | 靶点-药物 |
+| [EMA 药品数据库](https://www.ema.europa.eu/en/medicines) | 欧洲药品审批及完整评估报告 | 监管 |
+| [CPIC 药物基因组指南](https://cpicpgx.org/guidelines/) | 基于基因型的化疗剂量指南（如 DPYD/氟尿嘧啶） | 药物基因组 |
+| [FDALabel](https://www.fda.gov/science-research/bioinformatics-tools/fdalabel-full-text-search-drug-product-labeling) | 15 万+ FDA 药品标签全文搜索 | 标签搜索 |
+
 ## 临床指南
 
 | 资源 | 描述 | 地区 |
@@ -306,6 +367,9 @@ AI 分析病理切片（H&E、IHC 等），用于诊断、预后及生物标志�
 | [NCCN Guidelines](https://www.nccn.org/guidelines/) | 美国国家综合癌症网络指南 | 美国 |
 | [ESMO Guidelines](https://www.esmo.org/guidelines) | 欧洲肿瘤内科学会指南 | 欧洲 |
 | [CSCO Guidelines](https://www.csco.org.cn/) | 中国临床肿瘤学会指南 | 中国 |
+| [ASCO 指南](https://www.asco.org/guidelines) | 美国临床肿瘤学会循证指南 | 美国 |
+| [NICE 癌症路径](https://www.nice.org.uk/guidance/conditions-and-diseases/cancer) | 英国癌症治疗路径（含成本效益分析） | 英国 |
+| [CACA 指南](http://www.caca.org.cn/) | 中国抗癌协会整合诊疗指南，覆盖 53 种癌症 | 中国 |
 
 ## 患者社区
 
@@ -313,6 +377,24 @@ AI 分析病理切片（H&E、IHC 等），用于诊断、预后及生物标志�
 |------|------|
 | [osteosarc.com](https://osteosarc.com/) | Sid Sijbrandij 骨肉瘤开放数据项目 — N=1 数据共享典范 |
 | [Even One Ventures](https://evenone.ventures/) | "患者优先"生物科技投资基金，由 Sid Sijbrandij 创立 |
+| [Cancer.Net](https://www.cancer.net/) | ASCO 患者信息网站：癌症类型、治疗、应对指南 |
+| [CancerCare](https://www.cancercare.org/) | 免费心理咨询、支持小组、财务援助 |
+| [美国癌症协会](https://www.cancer.org/) | 24/7 热线、住宿、交通、财务指导 |
+| [Macmillan Cancer Support](https://www.macmillan.org.uk/) | 英国最大癌症慈善机构 |
+| [NCI 指定癌症中心](https://www.cancer.gov/research/infrastructure/cancer-centers/find) | 73 家美国顶级癌症中心目录 |
+| [中国抗癌协会 (CACA)](http://www.caca.org.cn/) | 中国最大抗癌学术组织，患者科普与筛查 |
+
+## 患者财务援助
+
+| 资源 | 描述 |
+|------|------|
+| [NeedyMeds](https://www.needymeds.org/) | 患者援助计划、免费诊所数据库 |
+| [RxAssist](https://www.rxassist.org/) | 按药品名搜索患者援助计划 |
+| [PAN Foundation](https://www.panfoundation.org/) | 欠保癌症患者共付额援助 |
+| [CancerCare 财务援助](https://www.cancercare.org/copayfoundation) | 癌症治疗专项共付额援助 |
+| [Cancer Financial Assistance Coalition](https://www.cancerfac.org/) | 可搜索的癌症财务帮助组织数据库 |
+| [GoodRx](https://www.goodrx.com/) | 美国 7 万+ 药房药品价格比较 |
+| [中国医保药品目录 (NRDL)](https://www.nhsa.gov.cn/) | 中国国家医保局药品目录，年度更新 |
 
 ## 中国特色项目
 
@@ -332,6 +414,7 @@ AI 分析病理切片（H&E、IHC 等），用于诊断、预后及生物标志�
 | [PancrePal-xiaoyibao/chictr-mcp-server](https://github.com/PancrePal-xiaoyibao/chictr-mcp-server) | 临床试验 | 中国临床试验注册中心 MCP Server |
 | [PancrePal-xiaoyibao/PancrePal](https://github.com/PancrePal-xiaoyibao) | 患者导航 | 小胰宝 — 胰腺癌患者 AI 助手 |
 | [OpenMEDLab](https://github.com/OpenMEDLab) | 医学大模型 | 上海 AI 实验室医学多模态开源项目群 |
+| [中国医保药品目录 (NRDL)](https://www.nhsa.gov.cn/) | 患者财务援助 | 中国国家医保局药品目录，年度更新 |
 
 ## 相关 Awesome 列表
 
